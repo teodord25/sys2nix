@@ -1,0 +1,4 @@
+- shell
+- groups
+- flatpaks?
+- dotfiles probably not
