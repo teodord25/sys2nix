@@ -14,7 +14,9 @@
         pname = "sys2nix";
         version = "0.1.0";
         src = ./.;
-        vendorHash = null; # no deps yet
+
+        # change this when deps change (checksum of project deps)
+        vendorHash = "sha256-scg1vorrJ4a6pblnhEWJeLJjh60uv+PItVU7lCpLGxM=";
       };
 
       devShells.${system}.default = pkgs.mkShell {
